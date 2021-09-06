@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/research-web-wiki/static/css/main.a617e044.chunk.css",
+    "main.js": "/research-web-wiki/static/js/main.26887d40.chunk.js",
+    "main.js.map": "/research-web-wiki/static/js/main.26887d40.chunk.js.map",
+    "runtime-main.js": "/research-web-wiki/static/js/runtime-main.4a778247.js",
+    "runtime-main.js.map": "/research-web-wiki/static/js/runtime-main.4a778247.js.map",
+    "static/js/2.137e6551.chunk.js": "/research-web-wiki/static/js/2.137e6551.chunk.js",
+    "static/js/2.137e6551.chunk.js.map": "/research-web-wiki/static/js/2.137e6551.chunk.js.map",
+    "static/js/3.624ecd6a.chunk.js": "/research-web-wiki/static/js/3.624ecd6a.chunk.js",
+    "static/js/3.624ecd6a.chunk.js.map": "/research-web-wiki/static/js/3.624ecd6a.chunk.js.map",
+    "index.html": "/research-web-wiki/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/research-web-wiki/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.137e6551.chunk.js.LICENSE.txt": "/research-web-wiki/static/js/2.137e6551.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/research-web-wiki/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a778247.js",
+    "static/js/2.137e6551.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.26887d40.chunk.js"
+  ]
+}

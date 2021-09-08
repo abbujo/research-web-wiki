@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/research-web-wiki/static/css/main.a617e044.chunk.css",
-    "main.js": "/research-web-wiki/static/js/main.f0225673.chunk.js",
-    "main.js.map": "/research-web-wiki/static/js/main.f0225673.chunk.js.map",
-    "runtime-main.js": "/research-web-wiki/static/js/runtime-main.4a778247.js",
-    "runtime-main.js.map": "/research-web-wiki/static/js/runtime-main.4a778247.js.map",
-    "static/js/2.67daee4c.chunk.js": "/research-web-wiki/static/js/2.67daee4c.chunk.js",
-    "static/js/2.67daee4c.chunk.js.map": "/research-web-wiki/static/js/2.67daee4c.chunk.js.map",
-    "static/js/3.624ecd6a.chunk.js": "/research-web-wiki/static/js/3.624ecd6a.chunk.js",
-    "static/js/3.624ecd6a.chunk.js.map": "/research-web-wiki/static/js/3.624ecd6a.chunk.js.map",
+    "main.css": "/research-web-wiki/static/css/main.13229f09.chunk.css",
+    "main.js": "/research-web-wiki/static/js/main.94db94df.chunk.js",
+    "main.js.map": "/research-web-wiki/static/js/main.94db94df.chunk.js.map",
+    "runtime-main.js": "/research-web-wiki/static/js/runtime-main.fa7ad881.js",
+    "runtime-main.js.map": "/research-web-wiki/static/js/runtime-main.fa7ad881.js.map",
+    "static/js/2.c3d22ede.chunk.js": "/research-web-wiki/static/js/2.c3d22ede.chunk.js",
+    "static/js/2.c3d22ede.chunk.js.map": "/research-web-wiki/static/js/2.c3d22ede.chunk.js.map",
+    "static/js/3.8da8d9da.chunk.js": "/research-web-wiki/static/js/3.8da8d9da.chunk.js",
+    "static/js/3.8da8d9da.chunk.js.map": "/research-web-wiki/static/js/3.8da8d9da.chunk.js.map",
     "index.html": "/research-web-wiki/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/research-web-wiki/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.67daee4c.chunk.js.LICENSE.txt": "/research-web-wiki/static/js/2.67daee4c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/research-web-wiki/static/media/logo.6ce24c58.svg"
+    "static/css/main.13229f09.chunk.css.map": "/research-web-wiki/static/css/main.13229f09.chunk.css.map",
+    "static/js/2.c3d22ede.chunk.js.LICENSE.txt": "/research-web-wiki/static/js/2.c3d22ede.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a778247.js",
-    "static/js/2.67daee4c.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.f0225673.chunk.js"
+    "static/js/runtime-main.fa7ad881.js",
+    "static/js/2.c3d22ede.chunk.js",
+    "static/css/main.13229f09.chunk.css",
+    "static/js/main.94db94df.chunk.js"
   ]
 }

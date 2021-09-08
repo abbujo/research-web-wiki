@@ -1,24 +1,21 @@
 import "./App.css";
-import axios from "axios";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/home";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
 import Data from "./pages/data";
+import Navbar from "./components/navbar";
 
-function App() {
+const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
+      <Navbar />
       <div className="App">
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/data">
-            <Data />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/data/:id" component={Data} />
         </Switch>
       </div>
-    </Router>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

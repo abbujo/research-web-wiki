@@ -5,23 +5,8 @@ import { Table } from "antd";
 
 const Data = () => {
   const { id } = useParams();
-  const [info, setInfo] = useState([]);
   const [loading, setloading] = useState(true);
   const [dataSource, setdataSource] = useState([]);
-
-  const createTableDS = () => {
-    console.log("Here is the datas", info);
-    var dataTemp = [];
-    Object.keys(info).map((item, index) => {
-      var dict = {};
-      dict["key"] = index;
-      dict["field"] = item;
-      dict["value"] = info[item];
-      dataTemp.push(dict);
-    });
-    setdataSource(dataTemp);
-    setloading(false);
-  };
 
   const columns = [
     {
@@ -42,12 +27,27 @@ const Data = () => {
     )
       .then((res) => res.json())
       .then((data) => {
+        console.log(data);
         if (data[0]) {
-          setInfo(data[0]);
+          var info = data[0];
+          var dataTemp = [];
+          Object.keys(info).map((item, index) => {
+            var dict = {};
+            if (item !== "info") {
+              dict["key"] = index;
+              dict["field"] = item;
+              dict["value"] = info[item];
+              dataTemp.push(dict);
+            }
+          });
+          setdataSource(dataTemp);
+          setloading(false);
         } else {
-          setInfo({ error: "There is no such data" });
+          setdataSource([
+            { key: "err", field: "error", value: "There is no such data" },
+          ]);
+          setloading(false);
         }
-        createTableDS();
       });
   }, [id]);
 
@@ -57,7 +57,14 @@ const Data = () => {
       <br />
       <a style={{ fontSize: "18px" }}></a>
 
-      {!loading && <Table dataSource={dataSource} columns={columns} loading={loading} style={{padding:"20px"}}/>}
+      {dataSource && (
+        <Table
+          dataSource={dataSource}
+          columns={columns}
+          loading={loading}
+          style={{ padding: "20px" }}
+        />
+      )}
     </div>
   );
 };
